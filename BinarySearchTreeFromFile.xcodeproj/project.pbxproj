@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		C7DD5C091BF6698F00995132 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD5C081BF6698F00995132 /* main.m */; };
+		C7DD5C111BF66AAD00995132 /* PMOBSTNode.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD5C101BF66AAD00995132 /* PMOBSTNode.m */; };
+		C7DD5C141BF66B2300995132 /* PMOBSTree.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD5C131BF66B2300995132 /* PMOBSTree.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		C7DD5C051BF6698F00995132 /* BinarySearchTreeFromFile */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BinarySearchTreeFromFile; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7DD5C081BF6698F00995132 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C7DD5C0F1BF66AAD00995132 /* PMOBSTNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMOBSTNode.h; sourceTree = "<group>"; };
+		C7DD5C101BF66AAD00995132 /* PMOBSTNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMOBSTNode.m; sourceTree = "<group>"; };
+		C7DD5C121BF66B2300995132 /* PMOBSTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMOBSTree.h; sourceTree = "<group>"; };
+		C7DD5C131BF66B2300995132 /* PMOBSTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMOBSTree.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				C7DD5C081BF6698F00995132 /* main.m */,
+				C7DD5C121BF66B2300995132 /* PMOBSTree.h */,
+				C7DD5C131BF66B2300995132 /* PMOBSTree.m */,
+				C7DD5C0F1BF66AAD00995132 /* PMOBSTNode.h */,
+				C7DD5C101BF66AAD00995132 /* PMOBSTNode.m */,
 			);
 			path = BinarySearchTreeFromFile;
 			sourceTree = "<group>";
@@ -118,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7DD5C111BF66AAD00995132 /* PMOBSTNode.m in Sources */,
+				C7DD5C141BF66B2300995132 /* PMOBSTree.m in Sources */,
 				C7DD5C091BF6698F00995132 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
