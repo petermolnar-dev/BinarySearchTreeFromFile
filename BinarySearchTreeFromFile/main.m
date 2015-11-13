@@ -12,6 +12,7 @@
 #pragma mark - Main function
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
+        
         PMOBSTNode *root;
         
         NSFileHandle *inputFileHandler = [NSFileHandle fileHandleWithStandardInput];
